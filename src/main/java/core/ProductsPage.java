@@ -16,6 +16,7 @@ public class ProductsPage {
 
         By firstsearchProduct = By.xpath("//li[@class='product-item promo-product']//img[@class='img-product']");
         DriverManager.getDriver().findElement(firstsearchProduct).click();
+        System.out.println("Hello I am a new Branch");
         return new FirstProductPage();
 
     }
